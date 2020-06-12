@@ -1,0 +1,41 @@
+extends layouts/common
+
+block content
+
+	h1(class="h1-title text-center mt-3") Phrases
+	p(class="note-title text-center") Let's note your phrase
+	div(style="height: 30px;")
+	div(class="container")
+		nav(class="navbar navbar-light d-flex navigaton-bar")
+			a(class="btn btn-primary col-5", href="/english") English
+			a(class="btn btn-primary col-5", href="/japanese") Japanese
+		div(class="text-primary note-title-latest mt-4 ml-3") Latest English Phrases:
+
+		//- USE 3 LATEST PHRASEß
+		-var n = 0;
+		ul(class="phrases-list")
+			each phrase in phrases
+				if n < 2
+					li(class="border-bottom")
+						div(class="mb-1 mt-2")= phrase.name
+						div(class="phrase-note mb-1")= phrase.meaning
+						div(class="phrase-note mb-2")
+							span Ex:
+							span &nbsp
+							span= phrase.example
+					- n++;
+
+		div(class="text-primary note-title-latest mt-4 ml-3") Latest Japanese Phrases:
+		//- USE 3 LATEST PHRASEß
+		-var n = 0;
+		ul(class="phrases-list")
+			each phrase in japanese_phrases
+				if n < 3
+					li(class="border-bottom")
+						div(class="mb-1 mt-2")= phrase.name
+						div(class="phrase-note mb-1")= phrase.meaning
+						div(class="phrase-note mb-2")
+							span Ex:
+							span &nbsp
+							span= phrase.example
+					- n++;

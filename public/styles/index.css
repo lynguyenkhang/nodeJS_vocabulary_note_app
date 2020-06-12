@@ -1,0 +1,82 @@
+
+body {
+	background-color: #f7f7fb;
+}
+
+.h1-title {
+	color:	#575D90;
+}
+
+.note-title {
+	font-size: 0.9rem;
+	color: #6c757d;
+}
+
+.navigaton-bar {
+	justify-content: space-around;
+}
+
+.alert-check {
+	font-size: 0.8rem;
+	width: max-content;
+}
+
+.note-title-latest {
+	font-style: italic ;
+
+}
+
+.navaigation-bar-english {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.search-box {
+	margin: 0px 0px 0px 7px;
+}
+
+@media(max-width: 770px) {
+	.search-box{
+		margin-top: 7px !important;
+	}
+}
+
+.btn-search {
+	border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 0px;
+}
+
+.form-search {
+	border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 0px;
+}
+
+.phrases-list {
+	list-style-type: none;
+    padding: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.phrase-note {
+	font-size: 0.9rem;
+	color: rgba(0,0,0,0.4);
+}
+
+.noDecorated-link {
+	color: rgb(0,0,0) !important;
+	text-decoration: none !important;
+}
+
+
+
+
+

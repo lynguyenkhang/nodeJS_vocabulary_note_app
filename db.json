@@ -1,0 +1,108 @@
+{
+  "english": [
+    {
+      "name": "Stomach-turning",
+      "meaning": "Feel angry or upset about something",
+      "example": "What a stomach-turning moment !",
+      "id": "3xJARO78W"
+    },
+    {
+      "name": "Just so you know",
+      "meaning": "Chỉ để mày biết",
+      "example": "Just so you know, we're going to have a team retreat next month",
+      "id": "d6g5WkYCT"
+    },
+    {
+      "name": "Retreat (v) (n)",
+      "meaning": "Rút lui",
+      "example": "She bursts into tears and retreats to the bedroom",
+      "id": "S5LUcZosd"
+    },
+    {
+      "name": "Too much on my plate",
+      "meaning": "Quá nhiều việc để làm",
+      "example": "Thong told me he had too much on his plate, that's why his performance us getting worse",
+      "id": "C2TGTCp6p"
+    },
+    {
+      "name": "TGIF !",
+      "meaning": "Thanks God. It's Friday !",
+      "example": "TGIF! Let's go to drink",
+      "id": "c7skjAzfD"
+    },
+    {
+      "name": "In fire",
+      "meaning": "Trong tình thế khẩn cấp (urgent)",
+      "example": "We're in fire, let's stay calmed and do whatever we can",
+      "id": "RuPWntlC6"
+    },
+    {
+      "name": "Get rid of",
+      "meaning": "Từ bỏ (một thói quen, công việc đang làm)",
+      "example": "I'm trying to get rid of going sleep late",
+      "id": "2bRMe5t-m"
+    },
+    {
+      "name": "Here you go",
+      "meaning": "Của mày đây",
+      "example": "A: Can I have some coffee ? B: Here you go",
+      "id": "Qn-THp-og"
+    },
+    {
+      "name": "Tech-savvy",
+      "meaning": "Thông thạo về tech",
+      "example": "John is definitely not a tech-savvy guy. It took him hours to turn on PC. Goddam !",
+      "id": "TpUC0FHo3"
+    }
+  ],
+  "japanese": [
+    {
+      "name": "いいえ",
+      "meaning": "No",
+      "example": "",
+      "id": "AUhSLwqnw"
+    },
+    {
+      "name": "はい",
+      "meaning": "Yes",
+      "example": "",
+      "id": "jSHg1zBZm"
+    },
+    {
+      "name": "すし",
+      "meaning": "Sushi",
+      "example": "",
+      "id": "QSIcL_Iyg"
+    },
+    {
+      "name": "あか",
+      "meaning": "Red",
+      "example": "",
+      "id": "86aEPNbCk"
+    },
+    {
+      "name": "いぬ",
+      "meaning": "Dog",
+      "example": "",
+      "id": "1IRkIaZ0H"
+    },
+    {
+      "name": "ぬこ",
+      "meaning": "Cat",
+      "example": "",
+      "id": "ZaAakfy9l"
+    },
+    {
+      "name": "わたし",
+      "meaning": "I am, me",
+      "example": "",
+      "id": "QOCBSCvEI"
+    },
+    {
+      "name": "こんにちは",
+      "meaning": "Hello",
+      "example": "",
+      "id": "OHxKxHUy4"
+    }
+  ]
+}

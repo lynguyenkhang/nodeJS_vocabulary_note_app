@@ -1,0 +1,26 @@
+extends ../layouts/common
+
+block content
+
+	h2(class="h1-title text-center mt-3") Japanese Phrases
+	p(class="note-title text-center") Japanese is easy
+	div(style="height: 30px;")
+	div(class="container")
+		nav(class="navbar navbar-light navaigation-bar-english")
+			a(class="btn btn-primary m-2", href="/") Home
+			a(class="btn btn-primary m-2", href="/japanese/create") Create
+			a(class="btn btn-primary m-2", href="/japanese/delete") Delete
+			form(action="/japanese/search", class="d-flex search-box" ,method="GET")
+				input(type="text", name="searchedPhrase", class="form-control form-search" ,placeholder=keyword)
+				button(class="btn btn-secondary btn-search") Search
+
+		ul(class="phrases-list")
+			each phrase in phrases
+				li(class="border-bottom")
+					a(class="noDecorated-link", href="/japanese/" + phrase.id)
+						div(class="mb-1 mt-2")= phrase.name
+						div(class="phrase-note mb-1")= phrase.meaning
+						div(class="phrase-note mb-2")
+							span Ex:
+							span &nbsp
+							span= phrase.example

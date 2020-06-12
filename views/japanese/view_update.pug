@@ -1,0 +1,15 @@
+extends ../layouts/common
+
+block content
+	h2(class="h1-title text-center mt-3") Japanese Phrases
+	p(class="note-title text-center") Japanese is easy
+	div(style="height: 30px;")
+	div(class="container")
+		form(action="/japanese/" + phrase.id, class="search-box" ,method="POST")
+			input(type="text", name="name", class="form-control mb-3" ,placeholder=phrase.name)
+			input(type="text", name="meaning", class="form-control mb-3" ,placeholder=phrase.meaning)
+			input(type="text", name="example", class="form-control mb-2" ,placeholder=phrase.example)
+			button(class="btn btn-primary") Update
+			a(class="btn btn-secondary m-2", href="/japanese") Back
+
+
